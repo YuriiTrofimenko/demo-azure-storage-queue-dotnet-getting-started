@@ -48,7 +48,7 @@ namespace QueueStorage
             await UpdateEnqueuedMessageAsync(queue); 
  
             // Demonstrate advanced functionality such as processing of batches of messages 
-            await ProcessBatchOfMessagesAsync(queue); 
+            // await ProcessBatchOfMessagesAsync(queue); 
 
             // When you delete a queue it could take several seconds before you can recreate a queue with the same 
             // name - hence to enable you to run the demo in quick succession the queue is not deleted. If you want  
